@@ -6,6 +6,7 @@ body {
     align-items: center;
 
     --cor-bg-gallows: #8E4008;
+    --cor-bg-person: #bf852d;
 }
 
 #containerGallows {
@@ -45,4 +46,73 @@ body {
     position: relative;
     bottom: 2.9rem;
     right: 1.5rem;
+}
+
+#head {
+    background-color: transparent;
+    min-height: 1.8rem;
+    min-width: 1.8rem;
+    border: solid 0.2rem var(--cor-bg-person);
+    border-radius: 1.8rem;
+
+    position: relative;
+    bottom: 1.3rem;
+    right: 2.8rem;
+}
+
+#body {
+    background-color: var(--cor-bg-person);
+    min-height: 3.5rem;
+    min-width: 0.2rem;
+
+    position: relative;
+    top: 1.5rem;
+    right: 4.1rem;
+}
+
+#armRight {
+    background-color: var(--cor-bg-person);
+    min-height: 1.5rem;
+    min-width: 0.2rem;
+    transform: rotate(-45deg);
+
+
+    position: relative;
+    top: 0.7rem;
+    right: 3.8rem;
+}
+
+#armLeft {
+    background-color: var(--cor-bg-person);
+    min-height: 1.5rem;
+    min-width: 0.2rem;
+    transform: rotate(45deg);
+
+
+    position: relative;
+    top: 0.7rem;
+    right: 5rem;
+}
+
+#footRight {
+    background-color: var(--cor-bg-person);
+    min-height: 1rem;
+    min-width: 0.2rem;
+    transform: rotate(-45deg);
+
+    position: relative;
+    top: 3.4rem;
+    right: 4.4rem;
+}
+
+#footLeft {
+    background-color: var(--cor-bg-person);
+    min-height: 1rem;
+    min-width: 0.2rem;
+    transform: rotate(45deg);
+
+
+    position: relative;
+    top: 3.4rem;
+    right: 5.2rem;
 }
