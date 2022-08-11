@@ -4,4 +4,45 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    --cor-bg-gallows: #8E4008;
+}
+
+#containerGallows {
+    display: flex;
+    align-items: center;
+
+    padding-top: 1rem;
+    min-height: 8rem;
+    min-width: 8rem;
+}
+
+#gallowsY {
+    background-color: var(--cor-bg-gallows);
+    min-height: 8rem;
+    min-width: 1.2rem;
+
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+}
+
+#gallowsX {
+    background-color: var(--cor-bg-gallows);
+    min-height: 1.2rem;
+    min-width: 4rem;
+
+    position: relative;
+    bottom: 4rem;
+    right: 1.2rem;
+}
+
+#rope {
+    background-color: var(--cor-bg-gallows);
+    min-height: 1rem;
+    min-width: 0.2rem;
+
+    position: relative;
+    bottom: 2.9rem;
+    right: 1.5rem;
 }
