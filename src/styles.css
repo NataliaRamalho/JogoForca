@@ -116,3 +116,38 @@ body {
     top: 3.4rem;
     right: 5.2rem;
 }
+
+#keyboard {
+    margin-top: 1.5rem;
+
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    justify-items: center;
+    gap: 0.5rem;
+}
+
+.keyboardLetter {
+    font-size: 2rem;
+}
+
+.keyboardKey {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #F5F5F5;
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px grey;
+}
+
+.keyboardKey:hover {
+    cursor: pointer;
+}
+
+.keyboardLetter {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
