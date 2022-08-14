@@ -1,0 +1,26 @@
+[
+    {
+        "key": 1,
+        "word": "Gorila",
+        "category": "Animal",
+        "length": "6"
+    },
+    {
+        "key": 2,
+        "word": "Ganso",
+        "category": "Animal",
+        "length": "5"
+    },
+    {
+        "key": 3,
+        "word": "Pato",
+        "category": "Animal",
+        "length": "4"
+    },
+    {
+        "key": 4,
+        "word": "Caracol",
+        "category": "Animal",
+        "length": "7"
+    }
+]
