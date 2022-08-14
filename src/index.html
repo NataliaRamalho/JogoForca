@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <div>
-        <h1>Dica</h1>
+    <div id="containerTip">
+
     </div>
     <div id="containerGallows">
         <div id="gallowsY">
@@ -44,6 +44,9 @@
         </div>
 
     </div>
+    <div id="containerKeyWord">
+
+    </div>
     <div id="keyboard">
 
     </div>
@@ -52,7 +55,8 @@
 
 </html>
 <script type="module">
-    import { generateKeyboard } from './index.js'
+    import { generateKeyboard, randomWord } from './index.js'
+    randomWord()
     generateKeyboard()
 
 </script>
