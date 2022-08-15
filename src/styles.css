@@ -117,16 +117,19 @@ body {
     right: 5.2rem;
 }
 
-#containerKeyWord{
+#containerKeyWord {
     display: flex;
     justify-content: center;
     padding: 2rem 0rem;
     max-width: 80%;
 }
 
+#containerKeyWord h1 {
+    letter-spacing: 0.5rem;
+}
+
 #keyboard {
     margin-top: 1.5rem;
-
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     justify-items: center;
@@ -139,13 +142,18 @@ body {
 
 .keyboardKey {
     background: white;
+    border: 1px solid #F5F5F5;
+}
+
+.keyboardKey,
+.right,
+.wrong {
     display: flex;
     justify-content: center;
     align-items: center;
 
     width: 2.5rem;
     height: 2.5rem;
-    border: 1px solid #F5F5F5;
     border-radius: 2px;
     box-shadow: 0.5px 0.5px grey;
 }
@@ -157,4 +165,23 @@ body {
 .keyboardLetter {
     font-weight: bolder;
     font-size: 1.2rem;
+}
+
+.right {
+    background: rgb(74, 224, 122);
+    border: 1px solid rgb(74, 224, 122);
+}
+
+.right:hover,
+.wrong :hover {
+    cursor: no-drop;
+}
+
+.wrong {
+    background: rgba(233, 83, 70, 0.923);
+    border: 1px solid rgb(233, 83, 70, 0.923);
+}
+
+button:disabled {
+    color: black;
 }
