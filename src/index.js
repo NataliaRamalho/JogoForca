@@ -5,7 +5,7 @@ const keyboardArray = ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P',
     'Z', 'X', 'C', 'V', 'B', 'N', 'M']
 let game = {
     position: -1,
-    life: 5,
+    life: 6,
     word: []
 }
 
@@ -91,7 +91,32 @@ function kickLetter(event, letter, buttonLetter) {
 }
 
 function addBody() {
+    const containerGallows = document.getElementById('containerGallows')
+    const body = document.createElement('div')
+    switch (game.life) {
+        case 5:
+            body.id = 'head'
+            break
+        case 4:
+            body.id = 'body'
+            break
+        case 3:
+            body.id = 'armRight'
+            break
+        case 2:
+            body.id = 'armLeft'
+            break
+        case 1:
+            body.id = 'footRight'
+            break
+        case 0:
+            body.id = 'footLeft'
+            break
+        default:
+            console.log('error')
+    }
 
+    containerGallows.append(body)
 }
 
 function resetGame() {
