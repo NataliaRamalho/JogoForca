@@ -22,5 +22,35 @@
         "word": "Caracol",
         "category": "Animal",
         "length": "7"
+    },
+    {
+        "key": 5,
+        "word": "Nozes",
+        "category": "Alimentos",
+        "length": "5"
+    },
+    {
+        "key": 6,
+        "word": "Morango",
+        "category": "Alimentos",
+        "length": "7"
+    },
+    {
+        "key": 7,
+        "word": "Laranja",
+        "category": "Alimentos",
+        "length": "7"
+    },
+    {
+        "key": 8,
+        "word": "Sopa",
+        "category": "Alimentos",
+        "length": "4"
+    },
+    {
+        "key": 9,
+        "word": "Espinafre",
+        "category": "Alimentos",
+        "length": "9"
     }
 ]
