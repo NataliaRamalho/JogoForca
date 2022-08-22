@@ -53,7 +53,6 @@ function createWord() {
 function kickLetter(event, letter, buttonLetter) {
     event.preventDefault()
     if (game.position != -1) {
-        console.log(wordData[game.position])
         const isLetter = wordData[game.position].word.toLowerCase().includes(letter.toLowerCase())
         if (isLetter) {
             buttonLetter.className = 'right'
