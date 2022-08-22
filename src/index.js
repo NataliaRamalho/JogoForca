@@ -10,8 +10,9 @@ let game = {
 }
 
 function generateKeyboard() {
+    const keyboard = document.getElementById('keyboard')
+    keyboard.innerHTML = ''
     for (let i = 0; i < keyboardArray.length; i++) {
-        const keyboard = document.getElementById('keyboard')
         const buttonLetter = document.createElement('button')
         const spanLetter = document.createElement('span')
         buttonLetter.className = 'keyboardKey'
@@ -33,6 +34,7 @@ function randomWord() {
 function addTip() {
     const containerTip = document.getElementById('containerTip')
     const tipTitle = document.createElement('h1')
+    containerTip.innerHTML = ''
     tipTitle.innerText = wordData[game.position].category
     containerTip.append(tipTitle)
 }
@@ -44,8 +46,8 @@ function createWord() {
     const writeWord = '_'.repeat(numberLetters)
     word.innerText = writeWord
     game.word = [...writeWord]
+    containerTip.innerHTML = ''
     containerTip.append(word)
-
 }
 
 function kickLetter(event, letter, buttonLetter) {
@@ -120,6 +122,19 @@ function addBody() {
 }
 
 function resetGame() {
-
+    game.life = 6
+    randomWord()
+    generateKeyboard()
+    resetGallows()
 }
+
+function resetGallows() {
+    const containerGallows = document.getElementById('containerGallows')
+    containerGallows.innerHTML = `
+        <div id="gallowsY"></div>
+        <div id="gallowsX"></div>
+        <div id="rope"></div>
+    `
+}
+
 export { generateKeyboard, randomWord }
