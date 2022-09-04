@@ -185,3 +185,48 @@ body {
 button:disabled {
     color: black;
 }
+
+#containerToast {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    background: rgb(229, 234, 229);
+    border-radius: 0.2rem;
+
+    width: 13rem;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    z-index: 3;
+    bottom: 28rem;
+}
+
+#toastBody {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.2rem;
+}
+
+#toastBody h1 {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+
+#toastTime {
+    min-height: 0.35rem;
+    align-self: flex-end;
+    min-width: 0%;
+}
+
+.win {
+    background: rgb(7, 197, 14);
+}
+
+.lose {
+    background: rgb(227, 62, 50);
+}
