@@ -135,6 +135,8 @@ function resetGallows() {
 }
 
 function addToast(type = 'win') {
+    const keyboard = document.getElementById('keyboard')
+    keyboard.innerHTML = ''
     const containerToast = document.createElement('div')
     const toastBody = document.createElement('div')
     const h1 = document.createElement('h1')
