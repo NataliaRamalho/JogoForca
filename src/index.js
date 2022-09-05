@@ -74,8 +74,7 @@ function kickLetter(event, letter, buttonLetter) {
             word.innerText = game.word.join('')
             containerTip.append(word)
             if (!game.word.join('').includes('_')) {
-                alert('Win')
-                resetGame()
+                addToast()
             }
         }
         else {
@@ -83,8 +82,7 @@ function kickLetter(event, letter, buttonLetter) {
             game.life--
             addBody()
             if (game.life == 0) {
-                alert('Game over')
-                resetGame()
+                addToast('lose')
             }
         }
         buttonLetter.disabled = true
