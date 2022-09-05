@@ -136,4 +136,33 @@ function resetGallows() {
     `
 }
 
+function addToast(type = 'win') {
+    const containerToast = document.createElement('div')
+    const toastBody = document.createElement('div')
+    const h1 = document.createElement('h1')
+    const toastTime = document.createElement('div')
+    containerToast.id = "containerToast"
+    toastBody.id = "toastBody"
+    toastTime.id = "toastTime"
+    toastBody.appendChild(h1)
+    containerToast.appendChild(toastBody)
+    containerToast.appendChild(toastTime)
+    document.body.appendChild(containerToast)
+    toastBody.className = type
+    toastTime.className = type
+    h1.textContent = type == 'win' ? 'Parabéns você ganhou !' : 'Você perdeu :('
+    let porcent = 0
+    const time = setInterval(() => {
+        toastTime.style = `min-width: ${porcent}%`
+        porcent = porcent + 1
+    }, 10);
+
+    setTimeout((() => {
+        clearInterval(time)
+        document.getElementById('containerToast').remove()
+        resetGame()
+    }), 1010)
+
+}
+
 export { generateKeyboard, randomWord }
