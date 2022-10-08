@@ -1,5 +1,6 @@
 
-import wordData from './wordsData.json' assert { type: "json" }
+import  wordData  from './wordsData.js'
+
 const keyboardArray = ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P',
     'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Ç',
     'Z', 'X', 'C', 'V', 'B', 'N', 'M']

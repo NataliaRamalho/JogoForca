@@ -1,4 +1,4 @@
-[
+const wordData = [
     {
         "key": 1,
         "word": "Gorila",
@@ -54,3 +54,5 @@
         "length": "9"
     }
 ]
+
+export default wordData;
