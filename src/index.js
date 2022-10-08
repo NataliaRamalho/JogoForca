@@ -80,7 +80,6 @@ function kickLetter(event, letter, buttonLetter) {
             }
         }
         else {
-            console.log('chamou')
             buttonLetter.className = 'wrong'
             game.life--
             addBody()
