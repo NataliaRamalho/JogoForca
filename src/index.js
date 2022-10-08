@@ -6,7 +6,7 @@ const keyboardArray = ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P',
     'Z', 'X', 'C', 'V', 'B', 'N', 'M']
 let game = {
     position: -1,
-    life: 6,
+    life: 7,
     word: []
 }
 
@@ -36,7 +36,7 @@ function addTip() {
     const containerTip = document.getElementById('containerTip')
     const tipTitle = document.createElement('h1')
     containerTip.innerHTML = ''
-    tipTitle.innerText = wordData[game.position].category
+    tipTitle.innerText = 'Dica: ' + wordData[game.position].category
     containerTip.append(tipTitle)
 }
 
@@ -50,6 +50,7 @@ function createWord() {
     containerTip.innerHTML = ''
     containerTip.append(word)
 }
+
 
 function kickLetter(event, letter, buttonLetter) {
     event.preventDefault()
@@ -79,6 +80,7 @@ function kickLetter(event, letter, buttonLetter) {
             }
         }
         else {
+            console.log('chamou')
             buttonLetter.className = 'wrong'
             game.life--
             addBody()
@@ -94,33 +96,40 @@ function addBody() {
     const containerGallows = document.getElementById('containerGallows')
     const body = document.createElement('div')
     switch (game.life) {
-        case 5:
+        case 6:
             body.id = 'head'
             break
-        case 4:
+        case 5:
             body.id = 'body'
             break
-        case 3:
+        case 4:
             body.id = 'armRight'
             break
-        case 2:
+        case 3:
             body.id = 'armLeft'
             break
-        case 1:
+        case 2:
             body.id = 'footRight'
             break
-        case 0:
+        case 1:
             body.id = 'footLeft'
             break
+        case 0:
+            const head = document.getElementById('head')
+            head.className = 'effectHead'
+            const rope = document.getElementById('rope')
+            rope.className = 'effectRope'
+            break
         default:
-            console.log('error')
+            console.log('erro')
     }
-
-    containerGallows.append(body)
+    if(game.life != 0){
+        containerGallows.append(body)
+    }
 }
 
 function resetGame() {
-    game.life = 6
+    game.life = 7
     randomWord()
     generateKeyboard()
     resetGallows()
@@ -156,13 +165,13 @@ function addToast(type = 'win') {
     const time = setInterval(() => {
         toastTime.style = `min-width: ${porcent}%`
         porcent = porcent + 1
-    }, 10);
+    }, 20);
 
     setTimeout((() => {
         clearInterval(time)
         document.getElementById('containerToast').remove()
         resetGame()
-    }), 1010)
+    }), 2010)
 
 }
 

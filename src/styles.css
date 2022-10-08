@@ -230,3 +230,17 @@ button:disabled {
 .lose {
     background: rgb(227, 62, 50);
 }
+
+.effectHead{
+    -webkit-transform: translate(40%, 50%);
+    -ms-transform: translate(40%, 50%);
+    transition-duration: 5s;
+    transform: translate(40%, 50%);
+}
+
+.effectRope{
+    -webkit-transform: scaleY(4);
+    -ms-transform: scaleY(4);
+    transition-duration: 4.5s;
+    transform: scaleY(4);
+}
