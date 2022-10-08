@@ -151,7 +151,7 @@ function addToast(type = 'win') {
     document.body.appendChild(containerToast)
     toastBody.className = type
     toastTime.className = type
-    h1.textContent = type == 'win' ? 'Parabéns você ganhou !' : 'Você perdeu :('
+    h1.textContent = type == 'win' ? 'Parabéns você ganhou 🥳' : 'Você perdeu 😔'
     let porcent = 0
     const time = setInterval(() => {
         toastTime.style = `min-width: ${porcent}%`
