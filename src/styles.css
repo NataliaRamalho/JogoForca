@@ -9,6 +9,25 @@ body {
     --cor-bg-person: #bf852d;
 }
 
+#score{
+    display: flex; 
+    gap: 0.5rem;
+}
+
+#scoreSeparator{
+    align-self: center;
+}
+#scoreSeparator h2{
+    text-align: center;
+}
+
+#numWin h2{
+    color: green;
+}
+#numLose h2{
+    color: red;
+}
+
 #containerGallows {
     display: flex;
     align-items: center;

@@ -7,7 +7,8 @@ const keyboardArray = ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P',
 let game = {
     position: -1,
     life: 7,
-    word: []
+    word: [],
+    score: [0,0]
 }
 
 function generateKeyboard() {
@@ -51,6 +52,13 @@ function createWord() {
     containerTip.append(word)
 }
 
+function updateScore(type = 'win'){
+    const numWin = document.getElementById(`${type == 'win'? 'numWin' : 'numLose'}`);
+    const h2 = document.createElement('h2')
+    h2.innerHTML = type == 'win'? game.score[0] :  game.score[1]
+    numWin.innerHTML = ''
+    numWin.append(h2);
+}
 
 function kickLetter(event, letter, buttonLetter) {
     event.preventDefault()
@@ -76,6 +84,8 @@ function kickLetter(event, letter, buttonLetter) {
             word.innerText = game.word.join('')
             containerTip.append(word)
             if (!game.word.join('').includes('_')) {
+                game.score[0] = game.score[0] + 1; 
+                updateScore('win')
                 addToast()
             }
         }
@@ -84,6 +94,8 @@ function kickLetter(event, letter, buttonLetter) {
             game.life--
             addBody()
             if (game.life == 0) {
+                game.score[1] = game.score[1] + 1; 
+                updateScore('lose')
                 addToast('lose')
             }
         }
