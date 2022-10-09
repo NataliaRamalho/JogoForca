@@ -244,3 +244,13 @@ button:disabled {
     transition-duration: 4.5s;
     transform: scaleY(4);
 }
+
+@media (max-width: 450px) {
+    #keyboard {
+        grid-template-columns: repeat(7, 1fr);
+        gap: 0.2rem;
+    }
+}
+
+
+  
