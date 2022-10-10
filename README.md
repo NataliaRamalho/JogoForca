@@ -1,7 +1,7 @@
 # Jogo da Forca
 Para jogar o jogo [clique aqui](https://nataliaramalho.github.io/JogoForca/)
 
-![Gif-Jogo](https://github.com/NataliaRamalho/JogoForca/tree/main/assets)
+![Gif-Jogo](https://github.com/NataliaRamalho/JogoForca/blob/main/assets/Gif.gif)
 
 # Tecnologias utilizadas
 - HTML
