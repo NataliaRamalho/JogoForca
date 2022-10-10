@@ -7,7 +7,7 @@ const wordData = [
     },
     {
         "key": 2,
-        "word": "Ganso",
+        "word": "Arganaz",
         "category": "Animal",
         "length": "5"
     },
@@ -19,9 +19,9 @@ const wordData = [
     },
     {
         "key": 4,
-        "word": "Caracol",
+        "word": "Abutre",
         "category": "Animal",
-        "length": "7"
+        "length": "6"
     },
     {
         "key": 5,
@@ -31,7 +31,7 @@ const wordData = [
     },
     {
         "key": 6,
-        "word": "Macaco",
+        "word": "Alpaca",
         "category": "Animal",
         "length": "6"
     },
@@ -479,6 +479,12 @@ const wordData = [
         "word": 'Quadrante',
         "category": 'Objeto',
         "length": '9'
+    },
+    {
+        "key": 83,
+        "word": 'Boipiranga',
+        "category": 'Animal',
+        "length": '10'
     }
 
 ]
