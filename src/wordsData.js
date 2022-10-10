@@ -179,66 +179,66 @@ const wordData = [
         "category": "Profissão",
         "length": "11"
     },
-    { 
-        "key": 33, 
-        "word": 'Porteiro', 
-        "category": 'Profissão', 
-        "length": '8' 
+    {
+        "key": 33,
+        "word": 'Porteiro',
+        "category": 'Profissão',
+        "length": '8'
     },
-    { 
-        "key": 34, 
-        "word": 'Esteticista', 
-        "category": 'Profissão', 
+    {
+        "key": 34,
+        "word": 'Esteticista',
+        "category": 'Profissão',
         "length": '11'
-     },
-    { 
-        "key": 35, 
-        "word": 'Eletricista', 
-        "category": 'Profissão', 
+    },
+    {
+        "key": 35,
+        "word": 'Eletricista',
+        "category": 'Profissão',
         "length": '11'
-     },
-    { 
-        "key": 36, 
-        "word": 'Desenhista', 
-        "category": 'Profissão', 
-        "length": '10'
-     },
-    { 
-        "key": 37, 
-        "word": 'Escultor', 
-        "category": 'Profissão', 
-        "length": '8' 
     },
-    { 
-        "key": 38, 
-        "word": 'Consultor', 
-        "category": 'Profissão', 
-        "length": '9' 
-    },
-    { 
-        "key": 39, 
-        "word": 'Cozinheiro', 
-        "category": 'Profissão', 
+    {
+        "key": 36,
+        "word": 'Desenhista',
+        "category": 'Profissão',
         "length": '10'
-     },
+    },
+    {
+        "key": 37,
+        "word": 'Escultor',
+        "category": 'Profissão',
+        "length": '8'
+    },
+    {
+        "key": 38,
+        "word": 'Consultor',
+        "category": 'Profissão',
+        "length": '9'
+    },
+    {
+        "key": 39,
+        "word": 'Cozinheiro',
+        "category": 'Profissão',
+        "length": '10'
+    },
     {
         "key": 40,
         "word": 'Acupunturista',
         "category": 'Profissão',
         "length": '13'
     },
-    { 
-        "key": 41, 
-        "word": 'Auditor', 
-        "category": 'Profissão', 
-        "length": '7' 
+    {
+        "key": 41,
+        "word": 'Auditor',
+        "category": 'Profissão',
+        "length": '7'
     },
-    { 
-        "key": 42, 
+    {
+        "key": 42,
         "word": 'Bailarino',
-        "category": 
-        'Profissão', 
-        "length": '9' 
+        "category":
+            'Profissão',
+        "length": '9'
     },
     {
         "key": 43,
@@ -246,67 +246,240 @@ const wordData = [
         "category": 'Profissão',
         "length": '14'
     },
-    { 
-        "key": 44, 
-        "word": 'Designer', 
-        "category": 'Profissão', 
-        "length": '8' 
+    {
+        "key": 44,
+        "word": 'Designer',
+        "category": 'Profissão',
+        "length": '8'
     },
-    { 
-        "key": 45, 
-        "word": 'Engraxador', 
-        "category": 'Profissão', 
+    {
+        "key": 45,
+        "word": 'Engraxador',
+        "category": 'Profissão',
         "length": '10'
-     },
-    { 
-        "key": 46, 
-        "word": 'Fundidor', 
-        "category": 'Profissão', 
-        "length": '8' 
     },
-    { 
-        "key": 47, 
-        "word": 'Forjador', 
-        "category": 'Profissão', 
-        "length": '8' 
+    {
+        "key": 46,
+        "word": 'Fundidor',
+        "category": 'Profissão',
+        "length": '8'
     },
-    { 
-        "key": 48, 
-        "word": 'Guitarrista', 
-        "category": 'Profissão', 
+    {
+        "key": 47,
+        "word": 'Forjador',
+        "category": 'Profissão',
+        "length": '8'
+    },
+    {
+        "key": 48,
+        "word": 'Guitarrista',
+        "category": 'Profissão',
         "length": '11'
-     },
-    { 
-        "key": 49, 
-        "word": 'Humorista', 
-        "category": 'Profissão', 
-        "length": '9' 
     },
-    { 
-        "key": 50, 
-        "word": 'Harpista', 
-        "category": 'Profissão', 
-        "length": '8' 
+    {
+        "key": 49,
+        "word": 'Humorista',
+        "category": 'Profissão',
+        "length": '9'
     },
-    { 
-        "key": 51, 
-        "word": 'Instrutor', 
-        "category": 'Profissão', 
-        "length": '9' 
+    {
+        "key": 50,
+        "word": 'Harpista',
+        "category": 'Profissão',
+        "length": '8'
     },
-    { 
-        "key": 52, 
-        "word": 'Locutor', 
-        "category": 'Profissão', 
-        "length": '7' 
+    {
+        "key": 51,
+        "word": 'Instrutor',
+        "category": 'Profissão',
+        "length": '9'
     },
-    { 
-        "key": 53, 
-        "word": 'Marketing', 
-        "category": 'Profissão', 
-        "length": '9' 
+    {
+        "key": 52,
+        "word": 'Locutor',
+        "category": 'Profissão',
+        "length": '7'
+    },
+    {
+        "key": 53,
+        "word": 'Marketing',
+        "category": 'Profissão',
+        "length": '9'
+    },
+    {
+        "key": 54,
+        "word": 'Abajur',
+        "category": 'Objeto',
+        "length": '6'
+    },
+    {
+        "key": 55,
+        "word": 'Alfinete',
+        "category": 'Objeto',
+        "length": '8'
+    },
+    {
+        "key": 56,
+        "word": 'Algema',
+        "category": 'Objeto',
+        "length": '6'
+    },
+    {
+        "key": 57,
+        "word": 'Ampulheta',
+        "category": 'Objeto',
+        "length": '9'
+    },
+    {
+        "key": 58,
+        "word": 'Apagador',
+        "category": 'Objeto',
+        "length": '8'
+    },
+    {
+        "key": 59,
+        "word": 'Descascador',
+        "category": 'Objeto',
+        "length": '11'
+    },
+    {
+        "key": 60,
+        "word": 'Aquecedor',
+        "category": 'Objeto',
+        "length": '9'
+    },
+    {
+        "key": 61,
+        "word": 'Armadura',
+        "category": 'Objeto',
+        "length": '8'
+    },
+    {
+        "key": 62,
+        "word": 'Acupunturista',
+        "category": 'Objeto',
+        "length": '13'
+    },
+    {
+        "key": 63,
+        "word": 'Auditor',
+        "category": 'Objeto',
+        "length": '7'
+    },
+    {
+        "key": 64,
+        "word": 'Azulejo',
+        "category": 'Objeto',
+        "length": '7'
+    },
+    {
+        "key": 65,
+        "word": 'Bazuca',
+        "category": 'Objeto',
+        "length": '6'
+    },
+    {
+        "key": 66,
+        "word": 'Bigorna',
+        "category": 'Objeto',
+        "length": '7'
+    },
+    {
+        "key": 67,
+        "word": 'Borracha',
+        "category": 'Objeto',
+        "length": '8'
+    },
+    {
+        "key": 68,
+        "word": 'Bumerangue',
+        "category": 'Objeto',
+        "length": '10'
+    },
+    {
+        "key": 69,
+        "word": 'Campainha',
+        "category": 'Objeto',
+        "length": '9'
+    },
+    {
+        "key": 70,
+        "word": 'Computador',
+        "category": 'Objeto',
+        "length": '10'
+    },
+    {
+        "key": 71,
+        "word": 'Desfibrilador',
+        "category": 'Objeto',
+        "length": '13'
+    },
+    {
+        "key": 72,
+        "word": 'Desodorante',
+        "category": 'Objeto',
+        "length": '11'
+    },
+    {
+        "key": 73,
+        "word": 'Echarpe',
+        "category": 'Objeto',
+        "length": '7'
+    },
+    {
+        "key": 74,
+        "word": 'Enxada',
+        "category": 'Objeto',
+        "length": '6'
+    },
+    {
+        "key": 75,
+        "word": 'Espingarda',
+        "category": 'Objeto',
+        "length": '10'
+    },
+    {
+        "key": 76,
+        "word": 'Extintor',
+        "category": 'Objeto',
+        "length": '8'
+    },
+    {
+        "key": 77,
+        "word": 'Ferradura',
+        "category": 'Objeto',
+        "length": '9'
+    },
+    {
+        "key": 78,
+        "word": 'Sintetizador',
+        "category": 'Objeto',
+        "length": '12'
+    },
+    {
+        "key": 79,
+        "word": 'Serpentina',
+        "category": 'Objeto',
+        "length": '10'
+    },
+    {
+        "key": 80,
+        "word": 'Retrovisor',
+        "category": 'Objeto',
+        "length": '10'
+    },
+    {
+        "key": 81,
+        "word": 'Quadriciclo',
+        "category": 'Objeto',
+        "length": '11'
+    },
+    {
+        "key": 82,
+        "word": 'Quadrante',
+        "category": 'Objeto',
+        "length": '9'
     }
-
 
 ]
 
