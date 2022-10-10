@@ -13,9 +13,9 @@ const wordData = [
     },
     {
         "key": 3,
-        "word": "Pato",
+        "word": "Gafanhoto",
         "category": "Animal",
-        "length": "4"
+        "length": "9"
     },
     {
         "key": 4,
@@ -25,9 +25,9 @@ const wordData = [
     },
     {
         "key": 5,
-        "word": "Foca",
+        "word": "Formiga",
         "category": "Animal",
-        "length": "4"
+        "length": "7"
     },
     {
         "key": 6,
@@ -179,6 +179,135 @@ const wordData = [
         "category": "Profissão",
         "length": "11"
     },
+    { 
+        "key": 33, 
+        "word": 'Porteiro', 
+        "category": 'Profissão', 
+        "length": '8' 
+    },
+    { 
+        "key": 34, 
+        "word": 'Esteticista', 
+        "category": 'Profissão', 
+        "length": '11'
+     },
+    { 
+        "key": 35, 
+        "word": 'Eletricista', 
+        "category": 'Profissão', 
+        "length": '11'
+     },
+    { 
+        "key": 36, 
+        "word": 'Desenhista', 
+        "category": 'Profissão', 
+        "length": '10'
+     },
+    { 
+        "key": 37, 
+        "word": 'Escultor', 
+        "category": 'Profissão', 
+        "length": '8' 
+    },
+    { 
+        "key": 38, 
+        "word": 'Consultor', 
+        "category": 'Profissão', 
+        "length": '9' 
+    },
+    { 
+        "key": 39, 
+        "word": 'Cozinheiro', 
+        "category": 'Profissão', 
+        "length": '10'
+     },
+    {
+        "key": 40,
+        "word": 'Acupunturista',
+        "category": 'Profissão',
+        "length": '13'
+    },
+    { 
+        "key": 41, 
+        "word": 'Auditor', 
+        "category": 'Profissão', 
+        "length": '7' 
+    },
+    { 
+        "key": 42, 
+        "word": 'Bailarino',
+        "category": 
+        'Profissão', 
+        "length": '9' 
+    },
+    {
+        "key": 43,
+        "word": 'Contorcionista',
+        "category": 'Profissão',
+        "length": '14'
+    },
+    { 
+        "key": 44, 
+        "word": 'Designer', 
+        "category": 'Profissão', 
+        "length": '8' 
+    },
+    { 
+        "key": 45, 
+        "word": 'Engraxador', 
+        "category": 'Profissão', 
+        "length": '10'
+     },
+    { 
+        "key": 46, 
+        "word": 'Fundidor', 
+        "category": 'Profissão', 
+        "length": '8' 
+    },
+    { 
+        "key": 47, 
+        "word": 'Forjador', 
+        "category": 'Profissão', 
+        "length": '8' 
+    },
+    { 
+        "key": 48, 
+        "word": 'Guitarrista', 
+        "category": 'Profissão', 
+        "length": '11'
+     },
+    { 
+        "key": 49, 
+        "word": 'Humorista', 
+        "category": 'Profissão', 
+        "length": '9' 
+    },
+    { 
+        "key": 50, 
+        "word": 'Harpista', 
+        "category": 'Profissão', 
+        "length": '8' 
+    },
+    { 
+        "key": 51, 
+        "word": 'Instrutor', 
+        "category": 'Profissão', 
+        "length": '9' 
+    },
+    { 
+        "key": 52, 
+        "word": 'Locutor', 
+        "category": 'Profissão', 
+        "length": '7' 
+    },
+    { 
+        "key": 53, 
+        "word": 'Marketing', 
+        "category": 'Profissão', 
+        "length": '9' 
+    }
+
+
 ]
 
 export default wordData;
